@@ -1,0 +1,8 @@
+This project show how to create javascript module that can be used for both client and server.
+
+The following statement used as prove that module really able to work on server side:
+
+console.log(serverModule.description());
+
+To see the prove if the same module also is working on client, start application and open web page with the following url: "http://localhost:3000".
+Then press button "Test Module Pattern". Alert window will appear and present message returned from called module's method.
